@@ -2,3 +2,6 @@ driver/
 *.swp
 __pycache__/
 *.pyc
+build/
+dist/
+x52_control.egg-info/
