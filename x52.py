@@ -1,5 +1,3 @@
-#!/usr/bin/env pthon3
-
 from datetime import datetime
 import usb.util
 from usb.core import Device
@@ -9,7 +7,9 @@ class Invalid_Setting(Exception):
         self.message = message
 
 class x52:
-
+    """
+    Configures various aspects of X52/X52 Pro HOTAS
+    """
     __VENDOR_ID=0x06a3
     __SUPPORTED_DEVICES = (
         { 'product_id': 0x0762, 'device_type': 'X52 Pro', 'model': 'Saitek PLC Saitek X52 Pro Flight Control System'},
