@@ -1,3 +1,5 @@
+### Obs.: This repo is just a mirror. The official one is located at https://gitlab.com/Nerdeiro/x52-control
+
 # Logitech X52/X52Pro module
 
 Most of the information about how to configure the devices comes from a GUI program called gx52, created by Roberto Leinardi. His project can be found at https://github.com/leinardi/gx52 . Many thanks to him for his efforts, if you need a GUI app to set up your HOTAS, consider using his program.
